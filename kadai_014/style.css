@@ -1,0 +1,53 @@
+/* 大見出し(MYPROFILEに対して) */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size       : 40px;
+  text-align      : center;
+  letter-spacing  : 1.2em;
+  text-shadow     : 1px 1px 2px;
+}
+
+/* 実線の設定 */
+hr {
+  border: solid 3px rgb(115, 115, 114) ;
+}
+
+/* 個々の色設定 */
+.skyble {
+  color : skyblue;
+}
+.pink {
+  color :rgb(255, 192, 203);
+}
+
+
+/* (見出し1(名前・血液型・好きな食べ物に対して) */
+.見出し1 {
+  font-size  : 20px;
+  color      :pink;
+  font-weight: bold;
+  text-align : center;
+  font-family:"Arial", "Meiryo", sans-serif;
+}
+
+/* (見出し2(生年月日・趣味・プログラミングを始めた理由に対して) */
+.見出し2 {
+  font-size  : 20px;
+  color      : skyblue;
+  font-weight: bold;
+  text-align : center;
+  font-family:"Arial", "Meiryo", sans-serif;
+}
+/* <p>(段　落) */
+.段落{
+  font-size  :  20px;
+  text-align : center;
+  font-family:"Arial", "Meiryo", sans-serif;
+}
+/* 太文字の指定(侍太郎・1990年1月1日・O型に対して) */
+h2,#one,#two,#three {
+  font-weight:bold;
+}
+
+
